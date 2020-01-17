@@ -129,7 +129,7 @@
     "tabtab": "^2.2.2",
     "untildify": "^3.0.3",
     "update-notifier": "^2.2.0",
-    "uuid": "^2.0.2",
+    "uuid": "^3.4.0",
     "write-file-atomic": "^2.1.0",
     "yaml-ast-parser": "0.0.34"
   }
