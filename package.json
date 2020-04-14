@@ -124,7 +124,7 @@
     "raven": "^1.2.1",
     "rc": "^1.1.6",
     "replaceall": "^0.1.6",
-    "semver": "^5.7.0",
+    "semver": "^7.3.2",
     "semver-regex": "^1.0.0",
     "tabtab": "^2.2.2",
     "untildify": "^3.0.3",
