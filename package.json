@@ -103,7 +103,7 @@
     "fast-levenshtein": "^2.0.6",
     "filesize": "^3.3.0",
     "fs-extra": "^0.26.7",
-    "get-stdin": "^5.0.1",
+    "get-stdin": "^8.0.0",
     "globby": "^6.1.0",
     "graceful-fs": "^4.1.11",
     "https-proxy-agent": "^2.2.1",
