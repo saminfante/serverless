@@ -104,7 +104,7 @@
     "filesize": "^3.3.0",
     "fs-extra": "^0.26.7",
     "get-stdin": "^5.0.1",
-    "globby": "^6.1.0",
+    "globby": "^11.0.1",
     "graceful-fs": "^4.1.11",
     "https-proxy-agent": "^2.2.1",
     "is-docker": "^1.1.0",
