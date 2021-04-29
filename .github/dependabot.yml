@@ -1,0 +1,140 @@
+version: 2
+registries:
+  git-github-com:
+    type: git
+    url: https://github.com
+    username: saminfante
+    password: "${{secrets.GIT_GITHUB_COM_PASSWORD}}"
+
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:49"
+    timezone: US/Central
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: aws-sdk
+    versions:
+    - 2.834.0
+    - 2.835.0
+    - 2.836.0
+    - 2.838.0
+    - 2.839.0
+    - 2.840.0
+    - 2.841.0
+    - 2.842.0
+    - 2.843.0
+    - 2.844.0
+    - 2.845.0
+    - 2.846.0
+    - 2.847.0
+    - 2.848.0
+    - 2.849.0
+    - 2.850.0
+    - 2.851.0
+    - 2.853.0
+    - 2.854.0
+    - 2.855.0
+    - 2.856.0
+    - 2.857.0
+    - 2.858.0
+    - 2.859.0
+    - 2.860.0
+    - 2.861.0
+    - 2.862.0
+    - 2.863.0
+    - 2.864.0
+    - 2.865.0
+    - 2.866.0
+    - 2.867.0
+    - 2.868.0
+    - 2.869.0
+    - 2.870.0
+    - 2.872.0
+    - 2.873.0
+    - 2.874.0
+    - 2.875.0
+    - 2.876.0
+    - 2.877.0
+    - 2.878.0
+    - 2.879.0
+    - 2.880.0
+    - 2.881.0
+    - 2.882.0
+    - 2.883.0
+    - 2.884.0
+    - 2.885.0
+    - 2.886.0
+    - 2.889.0
+    - 2.890.0
+    - 2.891.0
+    - 2.892.0
+    - 2.893.0
+    - 2.894.0
+  - dependency-name: ci-info
+    versions:
+    - 2.0.0
+    - 3.0.0
+  - dependency-name: mocha
+    versions:
+    - 8.2.1
+    - 8.3.0
+    - 8.3.1
+  - dependency-name: graceful-fs
+    versions:
+    - 4.2.4
+    - 4.2.5
+  - dependency-name: archiver
+    versions:
+    - 5.2.0
+  - dependency-name: globby
+    versions:
+    - 11.0.2
+  - dependency-name: semver-regex
+    versions:
+    - 3.1.2
+  - dependency-name: semver
+    versions:
+    - 7.3.4
+  - dependency-name: update-notifier
+    versions:
+    - 5.0.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: is-docker
+    versions:
+    - 2.1.1
+  - dependency-name: jszip
+    versions:
+    - 3.5.0
+  - dependency-name: chalk
+    versions:
+    - 4.1.0
+  - dependency-name: get-stdin
+    versions:
+    - 8.0.0
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  - dependency-name: filesize
+    versions:
+    - 6.1.0
+    - 6.2.1
+    - 6.2.2
+  - dependency-name: markdown-table
+    versions:
+    - 2.0.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: eslint-config-airbnb
+    versions:
+    - 12.0.0
+  - dependency-name: markdown-magic
+    versions:
+    - 1.0.0
+  registries:
+  - git-github-com
